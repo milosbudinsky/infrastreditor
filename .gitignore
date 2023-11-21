@@ -1,0 +1,51 @@
+
+# Ignore wsdl generated temporary files
+/*/cxf-wsdl-generated/
+
+# Ignore Eclipse build output directory
+/*/bin/
+/*/dist/
+
+# Ignore Gradle build output directory
+/*/build/
+
+# Ignore Gradle project-specific cache directory
+.gradle/
+
+.apt_generated_tests/
+.apt_generated/
+
+# Ignore cache directory (wsdl2java generation)
+/*/caches/
+
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+
+target/
+*.jar
+!gradle-wrapper.jar
+*.war
+*.ear
+*.class
+*.zip
+*.tar.gz
+*.rar
+
+# eclipse specific git ignore
+*.pydevproject
+.project
+.metadata
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
