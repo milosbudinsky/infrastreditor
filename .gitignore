@@ -1,13 +1,10 @@
 
-# Ignore wsdl generated temporary files
-/*/cxf-wsdl-generated/
-
 # Ignore Eclipse build output directory
-/*/bin/
-/*/dist/
+bin/
+dist/
 
 # Ignore Gradle build output directory
-/*/build/
+build/
 
 # Ignore Gradle project-specific cache directory
 .gradle/
@@ -16,7 +13,7 @@
 .apt_generated/
 
 # Ignore cache directory (wsdl2java generation)
-/*/caches/
+caches/
 
 
 # Ignore Gradle GUI config
