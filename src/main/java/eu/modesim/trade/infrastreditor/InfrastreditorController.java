@@ -19,7 +19,7 @@ public class InfrastreditorController {
 
 	@GetMapping("/greeting")
 	public String greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-		return counter.incrementAndGet() + " " + String.format(template, name);
+		return "Counter=" +  counter.incrementAndGet() + " " + String.format(template, name);
 	}
 	
 }
