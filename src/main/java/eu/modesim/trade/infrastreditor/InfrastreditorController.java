@@ -14,7 +14,7 @@ import org.springframework.http.MediaType;
 //@RequestMapping(produces = MediaType.APPLICATION_JSON_VALUE, consumes = MediaType.APPLICATION_JSON_VALUE)
 public class InfrastreditorController { 
 	
-	private static final String template = "Hello, %s!!!???";
+	private static final String template = "Hello, %s!!!?";
 	private final AtomicLong counter = new AtomicLong();
 
 	@GetMapping("/greeting")
