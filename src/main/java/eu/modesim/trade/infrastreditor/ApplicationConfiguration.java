@@ -13,7 +13,7 @@ class ApplicationConfiguration {
 
   @Bean
   MongoClient mongoClient() {
-      return MongoClients.create("mongodb://mongo:kaVUGGePzhZXKJXMCayptBadsnKKhgNF@mongodb.railway.internal:27017");
+      return MongoClients.create("mongodb://mongo:kaVUGGePzhZXKJXMCayptBadsnKKhgNF@mongodb.railway.internal:27017/test");
       
   }
 
