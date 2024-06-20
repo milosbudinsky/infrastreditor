@@ -40,6 +40,12 @@ public class InfrastreditorController {
         return pointRepository.findAll();
     }
 
+    @GetMapping("/pointNames")
+    public String getAllPointNames() {
+        return pointRepository.findAll().toString();
+    }
+
+    
     @GetMapping("/lines")
     public List<Line> getAllLines() {
         return lineRepository.findAll();

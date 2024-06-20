@@ -8,16 +8,16 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 
-@Configuration
+//@Configuration
 class ApplicationConfiguration {
 
-  @Bean
+  //@Bean
   MongoClient mongoClient() {
-      return MongoClients.create("mongodb://mongo:kaVUGGePzhZXKJXMCayptBadsnKKhgNF@mongodb.railway.internal:27017/test");
+      return MongoClients.create("mongodb://mongo:kaVUGGePzhZXKJXMCayptBadsnKKhgNF@monorail.proxy.rlwy.net:10011/test");
       
   }
 
-  @Bean
+  //@Bean
   MongoOperations mongoTemplate(MongoClient mongoClient) {
       return new MongoTemplate(mongoClient, "geospatial");
   }

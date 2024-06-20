@@ -6,6 +6,8 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Line {
     private Integer from;
     private Integer to;
-
+    public String toString() {
+    	return "from=" + from + "to=" + to; 	
+    }
     // Getters and Setters
 }
