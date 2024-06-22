@@ -10,4 +10,16 @@ public class Line {
     	return "from=" + from + "to=" + to; 	
     }
     // Getters and Setters
+	public Integer getFrom() {
+		return from;
+	}
+	public void setFrom(Integer from) {
+		this.from = from;
+	}
+	public Integer getTo() {
+		return to;
+	}
+	public void setTo(Integer to) {
+		this.to = to;
+	}
 }
